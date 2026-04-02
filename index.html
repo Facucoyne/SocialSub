@@ -1,45 +1,69 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Social Sub </title>
-<link rel="stylesheet" href="./css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Social Sud</title>
+  <link rel="stylesheet" href="./css/style.css">
 </head>
-<body>
+<body><header class="navbar">
 
-<header class="navbar">
-  <h2>Social Sub</h2>
-  
+  <!-- IZQUIERDA -->
+  <div class="nav-left">
+    <div class="logo">Sud</div>
+
+    <div class="search">
+      <span>🔍</span>
+      <input type="text" placeholder="Buscar en Social Sub">
+    </div>
+  </div>
+
+  <!-- CENTRO -->
+  <div class="nav-center">
+    <div class="nav-icon active">🏠</div>
+    <div class="nav-icon">👥</div>
+    <div class="nav-icon">🎥</div>
+    <div class="nav-icon">🛒</div>
+  </div>
+
+  <!-- DERECHA -->
+  <div class="nav-right">
+
+    <div class="action-btn">➕</div>
+
+    
+
+  </div>
+
 </header>
 
 
+<!-- LAYOUT -->
 <div class="layout">
 
   <!-- SIDEBAR -->
   <aside class="sidebar">
-
-  <div class="profile">
-    <img src="./img/488867845_1106247391544808_3147927935101841163_n.jpg" class="avatar">
-    <p>la iglesia de jesucristo de los santos de los últimos días</p>
-  </div>
-
-  <nav>
-    <a href="#" class="menu-item active">🏠 Inicio</a>
-    <a href="#" class="menu-item">👤 Perfil</a>
-    <a href="#" class="menu-item">💬 Mensajes</a>
-    <a href="#" class="menu-item">👥 Comunidad</a>
-    <a href="#" class="menu-item">⚙️ Configuración</a>
-  </nav>
-
-</aside>
+    <ul>
+      <li>🏠 Inicio</li>
+      <li>🙏 Espiritual</li>
+      <li>📅 Eventos</li>
+      <li>🤝 Servicio</li>
+      <li>💬 Grupos</li>
+    </ul>
+  </aside>
+  
 
   <!-- FEED -->
   <main class="feed">
 
+    <!-- Crear post -->
     
+
+    <!-- Post -->
+           <p class="textoprincipal">¿Qué estás pensando?</p>
     <div class="post">
-   
+      
+
 <div id="disqus_thread"></div>
 <script>
 
@@ -63,25 +87,48 @@
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 
+        
     </div>
 
-    
   </main>
 
+  
   <!-- PANEL DERECHO -->
+
+  
   <aside class="right-panel">
-    
-    <div class="card">
-      <h3>🔥 Tendencias</h3>
-      <p>#Comunidad</p>
-      <p>#Fe</p>
-      <p>#Inspiración</p>
+  
+    <h3>Eventos</h3>
+    <div class="event">
+      <p>Reunión Dominical</p>
+      <span>Domingo 10:00</span>
     </div>
 
-    <div class="card">
-
+    <div class="event">
+      <p>Servicio Comunitario</p>
+      <span>Sábado 15:00</span>
     </div>
+
+     <div class="weather-card">
+  <div class="weather-header">
+    <span id="city">Buenos Aires</span>
+    <span id="icon">☀️</span>
+  </div>
+
+  <div class="weather-temp" id="temp">24°C</div>
+
+  <div class="weather-footer">
+    <span id="desc">Despejado</span>
+  </div>
+</div>
   </aside>
 
+  
+</div>
+<div>
+  
+</div>
+
+<script defer src="./app.js"></script>
 </body>
 </html>
