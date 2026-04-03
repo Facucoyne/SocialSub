@@ -25,3 +25,7 @@ if (clima === "Thunderstorm") icono = "⛈";
 if (clima === "Snow") icono = "❄️";
 
 document.getElementById("icon").innerText = icono;
+
+function toggleWeather() {
+  document.getElementById("weatherPopup").classList.toggle("active");
+}
