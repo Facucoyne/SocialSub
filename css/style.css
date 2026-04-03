@@ -653,3 +653,17 @@ body {
     padding: 6px;
   }
 }
+
+
+
+/* 📱 RESPONSIVE */
+@media (max-width: 768px) {
+  .layout {
+    flex-direction: column;
+  }
+
+  .right-panel {
+    order: -1; /* 🔥 ESTO LO MANDA ARRIBA */
+    width: 100%;
+  }
+}
