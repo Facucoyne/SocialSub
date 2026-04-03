@@ -796,3 +796,53 @@ body {
     order: 3;
   }
 }
+
+/* SECCIÓN */
+.comments-section {
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+/* INPUT */
+.create-comment {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  background: #fff;
+  padding: 10px;
+  border-radius: 15px;
+
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+.create-comment img {
+  border-radius: 50%;
+}
+
+.create-comment input {
+  flex: 1;
+  border: none;
+  background: #f0f2f5;
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+/* CONTENEDOR COMENTARIOS */
+.comments-box {
+  margin-top: 15px;
+  background: #fff;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+}
+img{
+  width: 42px;
+}
+/* 📱 RESPONSIVE */
+@media (max-width: 768px) {
+  .comments-section {
+    padding: 10px;
+  }
+}
