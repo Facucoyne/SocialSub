@@ -843,6 +843,6 @@ img{
 /* 📱 RESPONSIVE */
 @media (max-width: 768px) {
   .comments-section {
-    padding: 10px;
+    margin-top: 1px; /* antes seguro era más grande */
   }
 }
